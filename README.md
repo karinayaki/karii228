@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -61,15 +62,6 @@
             transition: 0.3s;
         }
         .btn:hover { background: #6A3D8A; transform: scale(1.02); }
-        .info {
-            background: #F0E8F5;
-            border-radius: 12px;
-            padding: 20px;
-            margin: 20px 0;
-        }
-        .info h3 { color: #6A3D8A; margin-bottom: 8px; }
-        .info ul { list-style: none; padding: 0; }
-        .info ul li { padding: 6px 0; color: #555; }
         .footer {
             text-align: center;
             margin-top: 30px;
@@ -95,18 +87,24 @@
                 <h3>Мобильное приложение</h3>
                 <p>Android — APK</p>
                 <p>Мобильное приложение для записи в студию, выбора даты/времени и проверки статуса заявок. Версия 1.0</p>
-        <a href="https://drive.google.com/uc?export=download&id=ВАШ_ID_APK" class="btn" download>
-            ⬇️ Скачать APK
-        </a>
-    </div>
-    <div class="app-card">
-        <div class="icon">💻</div>
-        <h3>Desktop приложение</h3>
-        <p>Windows — EXE</p>
-        <p>Десктопное приложение для записи в студию и проверки статуса заявок. Не требует установки Python.</p>
-        <a href="https://drive.google.com/uc?export=download&id=ВАШ_ID_EXE" class="btn" download>
-            ⬇️ Скачать EXE
-        </a>
+                <a href="https://drive.google.com/uc?export=download&id=ВАШ_ID_APK" class="btn" download>
+                    ⬇️ Скачать APK
+                </a>
+            </div>
+            <div class="app-card">
+                <div class="icon">💻</div>
+                <h3>Desktop приложение</h3>
+                <p>Windows — EXE</p>
+                <p>Десктопное приложение для записи в студию и проверки статуса заявок. Не требует установки Python.</p>
+                <a href="https://drive.google.com/uc?export=download&id=ВАШ_ID_EXE" class="btn" download>
+                    ⬇️ Скачать EXE
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            © 2026 — Якимюк Карина Руслановна, ИС-151
+        </div>
     </div>
 </body>
 </html>
